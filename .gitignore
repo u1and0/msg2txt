@@ -1,0 +1,5 @@
+/test/
+/dist/
+/build/
+/msg2txt*
+!msg2txt.py
