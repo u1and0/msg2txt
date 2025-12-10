@@ -84,17 +84,17 @@ pip install -r requirements-dev.txt
 pip install -r requirements-dev.txt
 
 # exe化
-pyinstaller --onefile --name=msg2txt.exe msg2txt.py
+pyinstaller --onefile --name=msg2txt msg2txt.py
 ```
 
 ### ビルドオプション
 
 ```bash
 # コンソールウィンドウを非表示にする場合
-pyinstaller --onefile --name=msg2txt.exe --noconsole msg2txt.py
+pyinstaller --onefile --name=msg2txt --noconsole msg2txt.py
 
 # アイコンを指定する場合
-pyinstaller --onefile --name=msg2txt.exe --icon=build/msg2txt/icon.ico msg2txt.py
+pyinstaller --onefile --name=msg2txt --icon=build/msg2txt/icon.ico msg2txt.py
 ```
 
 ビルド完了後、`dist/msg2txt.exe` が生成されます。

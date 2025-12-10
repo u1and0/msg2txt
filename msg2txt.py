@@ -13,7 +13,7 @@ from pathlib import Path
 import extract_msg
 import traceback
 
-VERSION = "msg2txt v1.0.0"
+VERSION = "msg2txt v0.1.0"
 
 
 class MsgParser:
