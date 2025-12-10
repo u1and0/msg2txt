@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements-dev.txt
-      - run: pyinstaller --onefile --name msg2txt msg2txt.py
+      - run: pyinstaller --onefile --noconsole --name msg2txt --icon=icon.ico msg2txt.py
       - uses: actions/upload-artifact@v5
         with:
           name: msg2txt-exe
